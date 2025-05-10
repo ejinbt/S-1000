@@ -151,13 +151,3 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 [MIT](LICENSE)
 ```
 
-**Things to customize:**
-
-1.  **Repository URL:** If you host this on GitHub, GitLab, etc., replace `<your-repo-url>` and `<your-repo-directory>`.
-2.  **Go Version:** Adjust the Go version prerequisite if necessary.
-3.  **Executable Name:** If you choose a different name than `discord_scraper` in `go build -o <name>`, update the examples.
-4.  **"NO_ROLE" handling:** The README mentions how users without roles are handled. The current Go code snippet I provided will create an entry with empty RoleID and RoleName if a user has no roles. If you modified this (e.g., to actually write "NO_ROLE"), update the description.
-5.  **License:** I've put `[MIT](LICENSE)` as a placeholder. If you choose a different license or don't have a `LICENSE` file yet, adjust this.
-6.  **Author/Contact:** You might want to add a section for author/contact if you plan to share this more widely.
-
-This should give you a solid `README.md` to accompany your Go program!
